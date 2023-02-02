@@ -1,0 +1,50 @@
+* {
+	background-color: #2c6682;
+	margin: 0;
+	padding: 0;
+}
+
+*::selection {
+	background-color: #1a1a1a;
+	color: #ffbab5;
+}
+
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+	text-align: center;
+}
+.introduccion {
+	color: #fff;
+	font-size: 2vw;
+	margin: 1.3vw;
+	align-content: center;
+}
+
+.txt {
+	padding: .8vw;
+}
+button {
+	background: #1f1f1f;
+	margin-top: 4vw;
+	border-radius: 3vh;
+	border-color: white;
+    background: aliceblue;
+    font-size: xx-large;
+    padding: 0.75em;
+}
+#yes_btn {
+    transform: translate(-100%,0);
+	transition: 0.3s;
+}
+#no_btn {
+    position: absolute;
+}
+#yes_btn:hover {
+	background-color: #1a1a1a;
+	color: #fff;
+	text-shadow: 0 0 5px #03e9f4,b
+	0 0 25px #03e9f4,
+	0 0 50px #03e9f4,
+	0 0 100px #03e9f4;
+}
+
